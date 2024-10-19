@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Stock Quote Tracker",
+    "version": "1.0",
+    "description": "Shows stock quotes and allows adding/removing stock quotes.",
+    "permissions": ["storage", "activeTab"],
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "bull.png" 
+    },
+    "background": {}
+  }
