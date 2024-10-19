@@ -1,5 +1,5 @@
 // Your Alpha Vantage API Key (replace 'YOUR_API_KEY' with your actual API key)
-const apiKey = 'MQGBSWH592HLQVAZ';
+const apiKey = 'KEY';
 
 // When the button is clicked
 document.getElementById("myButton").addEventListener("click", function() {
