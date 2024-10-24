@@ -33,7 +33,7 @@ Clone the GitHub repository to your local machine:
 
 `$ git clone <repository-url>`
 
-###Step 2: Get an API Key
+### Step 2: Get an API Key
 
 Go to Alpha Vantage.
 
@@ -41,7 +41,7 @@ Sign up for a free account to get an API key.
 
 Replace 'YOUR_API_KEY' in the main.js file with your actual API key.
 
-###Step 3: Load the Extension in Chrome
+### Step 3: Load the Extension in Chrome
 
 Open Google Chrome.
 
@@ -51,7 +51,7 @@ Enable Developer mode (toggle at the top right).
 
 Click Load unpacked and select the folder containing your project files.
 
-###Step 4: Using the Extension
+### Step 4: Using the Extension
 
 Click on the extension icon in the browser to open the stock quote tracker.
 
@@ -61,13 +61,13 @@ The extension will automatically update stock data every 30 minutes during marke
 
 To remove a stock from your list, click the Remove button next to the stock entry.
 
-##Usage Notes
+## Usage Notes
 
 **API Limitations**: Alpha Vantage's free tier has limitations of 25 requests per day. You won't be able to fetch the stock data after 25 requests for the day.
 
 **Supported Symbols**: Ensure you use correct stock symbols (e.g., GOOGL, MSFT). Incorrect symbols will not return data.
 
 
-###License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
