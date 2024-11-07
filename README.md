@@ -22,46 +22,36 @@ The extension also features a manual refresh button, allowing users to instantly
 - **Chrome Storage API**: Stores the list of stocks being tracked to ensure persistence across sessions.
 - **Alpha Vantage API**: Provides stock market data in real-time.
 
-## How to Install and Operate
+## Getting Started
 
 ### Step 1: Clone the Repository
 
 Clone the GitHub repository to your local machine:
-
 `$ git clone https://github.com/Justin-Liao23-e/Stock-Market-Browser-Extension
 
 ### Step 2: Get an API Key
 
 Go to Alpha Vantage.
-
 Sign up for a free account to get an API key.
-
 Replace 'YOUR_API_KEY' in the main.js file with your actual API key.
 
 ### Step 3: Load the Extension in Chrome
 
 Open Google Chrome.
-
 Go to chrome://extensions/ in the address bar.
-
 Enable Developer mode (toggle at the top right).
-
 Click Load unpacked and select the folder containing your project files.
 
 ### Step 4: Using the Extension
 
 Click on the extension icon in the browser to open the stock quote tracker.
-
 Enter a stock symbol (e.g., AAPL) and click Get Stock Quote to add it to your list.
-
 The extension will automatically update stock data every 30 minutes during market hours, and you can manually refresh using the Refresh Now button.
-
 To remove a stock from your list, click the Remove button next to the stock entry.
 
 ## Usage Notes
 
 **API Limitations**: Alpha Vantage's free tier has limitations of 25 requests per day. You won't be able to fetch the stock data after 25 requests for the day.
-
 **Supported Symbols**: Ensure you use correct stock symbols (e.g., GOOGL, MSFT). Incorrect symbols will not return data.
 
 
