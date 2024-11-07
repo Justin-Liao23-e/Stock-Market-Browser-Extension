@@ -11,11 +11,8 @@ This project is a browser extension that allows you to track stock prices in rea
 ## How It Works
 
 The extension uses JavaScript, HTML, and CSS for the front-end UI and Alpha Vantage's REST API for fetching real-time stock data.
-
 Stocks can be added by entering the stock symbol (e.g., `AAPL` for Apple) in the input field, and they will remain on your list until manually removed.
-
 The extension ensures no duplicate entries by refreshing the existing stock entry if a user tries to add a stock that is already tracked.
-
 The extension also features a manual refresh button, allowing users to instantly update all stock data with a click.
 
 ## Tech Stack
@@ -31,7 +28,7 @@ The extension also features a manual refresh button, allowing users to instantly
 
 Clone the GitHub repository to your local machine:
 
-`$ git clone <repository-url>`
+`$ git clone https://github.com/Justin-Liao23-e/Stock-Market-Browser-Extension
 
 ### Step 2: Get an API Key
 
@@ -70,4 +67,4 @@ To remove a stock from your list, click the Remove button next to the stock entr
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
