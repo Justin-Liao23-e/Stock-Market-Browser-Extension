@@ -18,7 +18,7 @@ The extension ensures no duplicate entries by refreshing the existing stock entr
 
 The extension also features a manual refresh button, allowing users to instantly update all stock data with a click.
 
-## Technologies Used
+## Tech Stack
 
 - **JavaScript**: Core logic and API integration.
 - **HTML/CSS**: User interface and styling for the popup.
